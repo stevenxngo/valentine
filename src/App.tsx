@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import Footer from "./components/Footer";
 import "./App.css";
 
-const phrases = [
+const phrases: string[] = [
   "no",
   "are you sure?",
   "really sure?",
@@ -18,9 +18,9 @@ const phrases = [
 ];
 
 function App() {
-  const [noCount, setNoCount] = useState(0);
-  const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 30 + 18;
+  const [noCount, setNoCount] = useState<number>(0);
+  const [yesPressed, setYesPressed] = useState<boolean>(false);
+  const yesButtonSize: number = noCount * 30 + 18;
 
   useEffect(() => {
     document.body.classList.add("bg-color");
@@ -31,13 +31,13 @@ function App() {
     };
   }, []);
 
-  const handleNoClick = () => {
+  const handleNoClick = (): void => {
     console.log("before", noCount);
     setNoCount(noCount + 1);
     console.log("after", noCount);
   };
 
-  const getNoText = () => {
+  const getNoText = (): string => {
     return phrases[noCount % phrases.length];
   };
 
