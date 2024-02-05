@@ -1,0 +1,43 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.bg-color {
+  background-color: #fcfbfc; 
+}
+
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.yes-button {
+  font-weight: 800;
+  color: #fcfbfc;
+  background-color: #21c55f;
+  border: none;
+}
+
+.yes-button:hover, .yes-button:active {
+  background-color: #17803d;
+}
+
+.no-button {
+  height: 40px;
+  width: auto;
+  font-size: 16px;
+  font-weight: 800;
+  color: #fcfbfc;
+  border: none;
+}
+
+.bear-heart-gif {
+  height: 200px;
+  width: auto;
+}
