@@ -45,17 +45,18 @@ function App() {
       {yesPressed ? (
         <>
           <img
+            className="gif"
             alt="bears kissing"
-            src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
+            src="https://media1.tenor.com/m/JHUJYSfYcSsAAAAC/love-mochi.gif"
           />
-          <h1 className="text-4xl my-4">yay! i love you</h1>
+          <h1 className="text-4xl my-4">ok yay!</h1>
         </>
       ) : (
         <>
           <img
-            className="bear-heart-gif"
+            className="gif"
             alt="bear with hearts"
-            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://media1.tenor.com/m/YUF4morhOVcAAAAC/peach-cat-boba-tea.gif"
           />
           <h1 className="text-4xl my-4 text-center">
             will you be my valentine?
