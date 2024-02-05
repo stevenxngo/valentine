@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { Button } from "react-bootstrap";
 import "./App.css";
 
@@ -79,6 +80,41 @@ function App() {
           </div>
         </>
       )}
+      <h6 className="mt-3">
+        developed by{" "}
+        <a
+          className="footer-name"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/stevenxngo/"
+        >
+          steven ngo
+        </a>
+        <a
+          className="linkedin-icon ms-1"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/stevenxngo"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          className="github-icon ms-1"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/stevenxngo"
+        >
+          <FaGithub />
+        </a>
+        <a
+          className="ig-icon ms-1"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/stevenxngo/"
+        >
+          <FaInstagram />
+        </a>
+      </h6>
     </div>
   );
 }
