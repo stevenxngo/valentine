@@ -18,7 +18,7 @@
 }
 
 .yes-button:hover, .yes-button:active {
-  background-color: #17803d;
+  background-color: #17803d !important;
 }
 
 .no-button {
