@@ -80,7 +80,7 @@ function App() {
           </div>
         </>
       )}
-      <h6 className="mt-3">
+      <h6 className="mt-3 mb-0 pb-3">
         developed by{" "}
         <a
           className="footer-name"
