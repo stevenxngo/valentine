@@ -6,10 +6,6 @@ Inspired by [mewtru](https://www.tiktok.com/@mewtru)
 
 A React app that you can use to ask that special someone to be your valentine. Made with React and Vite, and compatible with both desktop and mobile devices.
 
-## Video Demo
-
-[![Local Demo Video](/assets/valentine_thumbnail.jpeg)](https://youtu.be/PPucm6xMvU8 "Demo Video")
-
 ### Prerequisites
 
 - [npm 10.2.5](https://www.npmjs.com/)
