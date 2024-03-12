@@ -23,7 +23,7 @@ function Footer() {
           vite
         </a>
       </h6>
-      <h6 className="flex flex-row font-medium mb-0 pb-3 items-center justify-center">
+      <h6 className="flex flex-row font-medium items-center justify-center">
         by{" "}
         <a
           className="text-pink-300 ms-1"
@@ -34,7 +34,7 @@ function Footer() {
           steven ngo
         </a>
         <a
-          className="linkedin-icon text-blue-500 ms-1"
+          className="text-blue-500 ms-1"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/stevenxngo"
@@ -57,6 +57,9 @@ function Footer() {
         >
           <FaInstagram />
         </a>
+      </h6>
+      <h6 className="font-medium mb-0 pb-3">
+        inspired by <a className="text-pink-300" href="https://www.tiktok.com/@mewtru">mewtru</a>
       </h6>
     </>
   );
