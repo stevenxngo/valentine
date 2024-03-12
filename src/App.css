@@ -2,59 +2,7 @@
   background-color: #fdfefc;
 }
 
-.valentine-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.yes-button {
-  font-weight: 800;
-  color: #fcfbfc;
-  background-color: #21c55f;
-  border: none;
-}
-
-.yes-button:hover,
-.yes-button:active {
-  background-color: #17803d !important;
-}
-
-.no-button {
-  height: 40px;
-  width: auto;
-  font-size: 16px;
-  font-weight: 800;
-  color: #fcfbfc;
-  border: none;
-}
-
 .gif {
   height: 200px;
   width: auto;
-}
-
-.footer-name,
-.linkedin-icon,
-.github-icon,
-.ig-icon {
-  text-decoration: none;
-}
-
-.footer-name {
-  color: #e48ca3;
-}
-
-.linkedin-icon {
-  color: #0077b5;
-}
-
-.github-icon {
-  color: #333000;
-}
-
-.ig-icon {
-  color: #cd486b;
 }

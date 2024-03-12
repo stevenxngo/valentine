@@ -3,10 +3,10 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <h6 className="mt-3">
+      <h6 className="font-medium mt-3">
         built with{" "}
         <a
-          className="footer-name"
+          className="text-pink-300"
           target="_blank"
           rel="noopener noreferrer"
           href="https://reactjs.org/"
@@ -15,7 +15,7 @@ function Footer() {
         </a>{" "}
         and{" "}
         <a
-          className="footer-name"
+          className="text-pink-300"
           target="_blank"
           rel="noopener noreferrer"
           href="https://vitejs.dev/"
@@ -23,10 +23,10 @@ function Footer() {
           vite
         </a>
       </h6>
-      <h6 className="mb-0 pb-3">
+      <h6 className="flex flex-row font-medium mb-0 pb-3 items-center justify-center">
         by{" "}
         <a
-          className="footer-name"
+          className="text-pink-300 ms-1"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/stevenxngo/"
@@ -34,7 +34,7 @@ function Footer() {
           steven ngo
         </a>
         <a
-          className="linkedin-icon ms-1"
+          className="linkedin-icon text-blue-500 ms-1"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/stevenxngo"
@@ -42,7 +42,7 @@ function Footer() {
           <FaLinkedin />
         </a>
         <a
-          className="github-icon ms-1"
+          className="text-gray-700 ms-1"
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/stevenxngo"
@@ -50,7 +50,7 @@ function Footer() {
           <FaGithub />
         </a>
         <a
-          className="ig-icon ms-1"
+          className="text-pink-700 ms-1"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.instagram.com/stevenxngo/"
