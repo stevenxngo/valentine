@@ -1,6 +1,8 @@
 # valentine
 
-https://stevenxngo.github.io/valentine/
+Inspired by [mewtru](https://www.tiktok.com/@mewtru)
+
+[Deployed Site](https://stevenxngo.github.io/valentine/)
 
 A React app that you can use to ask that special someone to be your valentine. Made with React and Vite, and compatible with both desktop and mobile devices.
 
